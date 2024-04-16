@@ -22,10 +22,9 @@ exp_freq = np.array(bin_probs) * len(data)
 # Calculate Chi-Square statistic
 chi_square_stat = ((obs_freq - exp_freq) ** 2 / exp_freq).sum()
 
-# Degrees of freedom
 dof = num_bins - 1 - 2  # subtracting 2 for mean and std deviation
 
-# Critical value from Chi-Square distribution table for 24% significance level
+
 critical_value = stats.chi2.ppf(0.76, dof)
 
 # Print results
