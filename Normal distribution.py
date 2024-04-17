@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Given data
 data = [67, 63, 33, 69, 53, 51, 49, 78, 77, 83, 47, 53, 51, 49, 78, 77, 83, 47, 67, 63, 33, 69, 53, 51, 49, 78, 77, 83, 47, 53, 51, 49]
 
-# Calculate mean and standard deviation
+
 mean = np.mean(data)
 std_dev = np.std(data)
 
