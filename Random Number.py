@@ -1,5 +1,5 @@
 def linear_congruential_generator(seed, multiplier, increment, modulo, n):
-    # Initialize the sequence with the seed
+
     random_numbers = [seed]
 
     # Generate the sequence of n random numbers
