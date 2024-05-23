@@ -1,31 +1,22 @@
+def linear_congruential_generator(seed, multiplier, increment, modulo, n):
+    # Initialize the sequence with the seed
+    random_numbers = [seed]
 
-import random, pandas as pd
+    # Generate the sequence of n random numbers
+    for _ in range(n - 1):
+        next_num = (multiplier * random_numbers[-1] + increment) % modulo
+        random_numbers.append(next_num)
 
-# input data for dict
-cols = ['Serial', 'Random Number']
-values = []
+    return random_numbers
 
-#max length of the random number to generate
-max = 100
 
-#unique random number generation using loop
-for i in range(0, max):
-  values.append(random.uniform(0,1))
+# Parameters
+seed = 27
+multiplier = 17
+increment = 43
+modulo = 100
+n = 10  # Length of the sequence
 
-# creating an empty dictionary
-my_dict = []
-
-#updating dictionary with data
-for sl in range(0, max):
-    data = {cols[0]: sl, cols[1]: values[sl]}
-    my_dict.append(data)
-
-#transforming dictionary into dataframe
-df = pd.DataFrame.from_dict(my_dict)
-
-#publishing dataframe as a .csv
-df.to_csv('my_500_random_number_between_0_1.csv', index=False)
-
-new_df = pd.read_csv('my_500_random_number_between_0_1.csv')
-
-new_df
+# Generate the sequence
+random_sequence = linear_congruential_generator(seed, multiplier, increment, modulo, n)
+print(random_sequence)
