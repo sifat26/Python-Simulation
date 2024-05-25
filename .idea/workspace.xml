@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c8458c-f05b-401e-aa9b-2471a5267539" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Normal distribution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +35,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Monte Carlo method.executor": "Run",
+    "Python.Normal distribution.executor": "Run",
     "Python.Random Number.executor": "Run",
     "Python.probability_double_six.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SharedIndexes">
