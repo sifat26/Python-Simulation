@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c8458c-f05b-401e-aa9b-2471a5267539" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/histogram on age.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/(Poisson Probability).py" beforeDir="false" afterPath="$PROJECT_DIR$/(Poisson Probability).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monte Carlo method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Monte Carlo method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Normal distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Normal distribution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/probability_double_six.py" beforeDir="false" afterPath="$PROJECT_DIR$/probability_double_six.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
